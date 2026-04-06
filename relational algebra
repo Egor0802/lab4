@@ -1,0 +1,2 @@
+((π Surname σ Accounting.issue_date <= date('2019-12-31') and Accounting.issue_date >= date('2019-01-01')(Employee ⨝ Accounting)) - (π Surname σ Accounting.issue_date > date('2019-12-31') or Accounting.issue_date < date('2019-01-01')(Employee ⨝ Accounting)))
+
