@@ -1,7 +1,7 @@
 group: Yarets E.V., IP21 
 
 Employee = {
-employee_id, surname, date, post
+Employee_id, Surname, Date, Post
 3, 'Медведев', 'Sun Sep 15 1968 00:00:00 GMT+0300 (Москва, стандартное время)', 'Директор'
 11, 'Шумилова', 'Tue Oct 13 1987 00:00:00 GMT+0300 (Москва, стандартное время)', 'Библиотекарь'
 16, 'Тимошенко', 'Sun Jan 27 1980 00:00:00 GMT+0300 (Москва, стандартное время)', 'Библиотекарь'
@@ -19,7 +19,7 @@ Book_id, Name, Year, Author, Genre, Publisher
 }
 
 Reader = {
-Reader_if, Surname, Date, City, Telephone
+Reader_id, Surname, Date, City, Telephone
 45, 'Иванов', 1988-03-15, 'Гомель', '22-41-80'
 67, 'Петров', 1995-02-17, 'Жлоюин', '44-52-36'
 68, 'Сидоров', 1993-12-03, 'Мозырь', '92-31-50'
