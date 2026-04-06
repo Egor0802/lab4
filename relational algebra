@@ -1,2 +1,9 @@
-((π Surname σ Accounting.issue_date <= date('2019-12-31') and Accounting.issue_date >= date('2019-01-01')(Employee ⨝ Accounting)) - (π Surname σ Accounting.issue_date > date('2019-12-31') or Accounting.issue_date < date('2019-01-01')(Employee ⨝ Accounting)))
+(π Surname σ Accounting.issue_date <= date('2019-12-31') and Accounting.issue_date >= date('2019-01-01')(Employee ⨝ Accounting)) - (π Surname σ Accounting.issue_date > date('2019-12-31') or Accounting.issue_date < date('2019-01-01')(Employee ⨝ Accounting))
 
+π Surname ((σ Book.Year >= 2000 (Book ⨝ Accounting)) ⨝ Reader)
+
+(π Post Employee) - (π Post (Accounting ⨝ Employee))
+
+π City ((σ Book.Author = 'Кинг С.' (Accounting ⨝ Book)) ⨝ Reader)
+
+(π Telephone Reader) - (π Telephone (Accounting ⨝ Reader))
